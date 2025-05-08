@@ -39,7 +39,7 @@ python ./prepare_data/getCurveNoiseData.py # data for training point disturber
 
 # The extracted training data will be save at ./data
 ```
-Please check the codes to switch the dataset from novices or professionals via `NP=N` or `NP=P`. 
+Please check the codes to switch the dataset from novices or professionals via the variable `NP=N` or `NP=P`. 
 
 ### Training
 You can train three MLP disturbers using the corresponding data via the below commands:
