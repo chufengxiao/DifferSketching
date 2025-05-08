@@ -39,7 +39,7 @@ python ./prepare_data/getCurveNoiseData.py # data for training point disturber
 
 # The extracted training data will be save at ./data
 ```
-Please check the codes to switch the dataset from novices or professionals via the variable `NP=N` or `NP=P`. 
+Please check the codes to switch the dataset from novices or professionals via the variable `NP='N'` or `NP='P'`. 
 
 ### Training
 You can train three MLP disturbers using the corresponding data via the below commands:
@@ -53,4 +53,17 @@ python train_curveNoise.py # train point disturber
 # The trained models will be saved at ./train_models. Please check more details in the codes.
 ```
 
-
+## Citation
+If you find this repository useful in your project, please give us a star and cite the following work. Thanks :)
+```
+@article{xiao2022differsketching,
+  title={Differsketching: How differently do people sketch 3d objects?},
+  author={Xiao, Chufeng and Su, Wanchao and Liao, Jing and Lian, Zhouhui and Song, Yi-Zhe and Fu, Hongbo},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={6},
+  pages={1--16},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+```
